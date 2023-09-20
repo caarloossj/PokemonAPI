@@ -1,0 +1,290 @@
+/*NAVEGADOR*/
+nav.pkm-navigator
+{
+	margin: 0;
+	width: 100%;
+	min-width: 1200px;
+	height: 50px;
+	font-size: 25px;
+	background: #ffe6008c;
+	border-bottom: 5px solid rgb(131, 129, 33);
+	padding-top: 12px;
+}
+div.pkm-nav-content
+{
+	margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+    padding-top: 0px;
+}
+
+li.pkm-item-menu
+{
+	margin: auto;
+	display: inline-block;
+	position: relative;
+	height: 20px;
+    color: #ff00008c;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pkm-link
+{
+	text-align: center;
+	width: 170px;
+	height: 45px;
+	display: inline-block;
+	text-decoration: none;
+	overflow: hidden;
+	top: -122%;
+	position: relative;
+	color: rgb(1, 1, 1);
+	font-size: 18px;
+}
+
+
+/*EDITAR SELECTS*/
+select
+{
+    margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+	text-align: center;
+	width: 900px;
+	height: 50px;
+}
+
+#select_P
+{
+    margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+	text-align: center;
+	width: 900px;
+	height: 50px;
+}
+#select_T
+{
+    margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+	text-align: center;
+	width: 900px;
+	height: 50px;
+}
+#select_HAB
+{
+    margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+	text-align: center;
+	width: 900px;
+	height: 50px;
+}
+#selectPokemon
+{
+	padding-top: 120px;
+}
+#selectHabilidad
+{
+	padding-top: 120px;
+}
+#selectHabilidad1
+{
+	padding-top: 120px;
+}
+#selectTipo
+{
+	padding-top: 120px;
+}
+/*INPUTS*/
+input
+{
+	width: 890px;
+	height: 30px;
+}
+
+#input-buscar-hab
+{
+    margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+#input-buscar-pkm
+{
+    margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+#input-buscar-tipo
+{
+    margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#adb-home-image
+{
+	align-items: center;
+	margin-top: 25px;
+}
+
+#pkm-home-logo
+{
+	display: block;
+	margin: auto;
+}
+
+/*BACKGROUND IMAGEN*/
+#index-bg
+{
+	text-align: center;
+	background: url("../imagenes/Index.png");
+	color: #0000008c;
+}
+#paginas-bg
+{
+	background: url("../imagenes/fondo.jpg");
+	background-size: 1920px;
+	color: #ffffff;
+}
+
+/*DIV MUESTRA POKEMONS */
+#demo
+{
+
+	width: 200px;
+	height: 4px;
+	margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+	text-align: center;	
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*POKEMONS IMG*/
+.imagenesPok
+{
+	width: 200px;
+	height: 200px;
+}
+.imagenesX
+{
+	width: 200px;
+	height: 200px;
+}
+
+#pkm-home-logo
+{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 300px;
+}
+
+/*DIV PRINCIPAL INDEX*/
+#pkm-home-content
+{
+	min-width: 1200px
+}
+
+#font
+{
+	font-family: Arial black;
+}
+
+
+/*BUTTON NEXT & PREV*/
+#next
+{
+	width: 600px;
+	height: 30px;
+	margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+
+}
+#prev
+{
+	width: 600px;
+	height: 30px;
+	margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: 300px;
+}
+
+#nextHAB
+{
+	width: 600px;
+	height: 30px;
+	margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+
+}
+#prevHAB
+{
+	width: 600px;
+	height: 30px;
+	margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+	text-align: center;
+	margin-top: 300px;
+}
+
+#botones
+{
+	margin-top: 610px;
+}
+
+#botonesPokemon
+{
+	margin-top: -300px;
+}
+
+#searchButton
+{
+	width: 900px;
+	height: 30px;
+	margin: auto;
+	max-width: 1400px;
+	position: relative;
+	display: block;
+}
+
+/*IMAGENES LISTA*/
+#imgPoke
+{
+	width: 145px;
+	text-align: center;
+	margin: auto;
+	padding-left: 280px;
+}
+
+.ImagenEvoPokemon
+{
+	width: 75px;
+	height: 75px;
+	margin-top: 11px;
+}

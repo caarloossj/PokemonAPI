@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>POKEMON SELECT</title>
+		<link rel="icon" type="image/x-icon" href="../imagenes/Icon.ico">
+		<link rel="stylesheet" href="../css/estil.css">
+		<script type="text/javascript" src="../js/functionsPokemon.js"></script>
+        <script type="text/javascript">
+            window.addEventListener('load', loadJSON);
+        </script>
+	</head>
+	<body id="paginas-bg" class="main">
+		<div class="wrapper">
+            <nav class="pkm-navigator">
+                <div class="pkm-nav-content">
+                    <ul class="adb-menu">
+                        <li class="pkm-item-menu">
+                            <a class="pkm-link" href="../index.html">HOME</a>
+                        </li>
+                        <li class="pkm-item-menu">
+                            <a class="pkm-link" href="lista_pokemon.html">POKEMON LIST</a>
+                        </li>
+                        <li class="pkm-item-menu">
+                            <a class="pkm-link" href="lista_tipo.html">TYPE LIST</a>
+                        </li>
+                        <li class="pkm-item-menu">
+                            <a class="pkm-link" href="lista_habilidades.html">ABILITY LIST</a>
+                        </li>
+                        <li class="pkm-item-menu">
+                            <a class="pkm-link" href="select_pokemon.html">POKEMON SELECT</a>
+                        </li>
+                        <li class="pkm-item-menu">
+                            <a class="pkm-link" href="select_habilidad.html">ABILITY SELECT</a>
+                        </li>
+                        <li class="pkm-item-menu">
+                            <a class="pkm-link" href="select_tipo.html">TYPE SELECT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="selectPokemon">
+            <select id="select_P">
+                <option value="1">SELECT A POKEMON</option>
+            </select>
+            <select id="select_T">
+                <option value="1">Here will be the type of the pokemon</option>
+            </select>
+        </div>
+        <div id="demo"></div>
+    </body>
+</html>
